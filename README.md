@@ -77,9 +77,9 @@ Le lancement de l'application nécessite certains prérequis :
 ###### Installation  de npm
 ###### Installation  de nodejs
 L'application étant en local elle se  lance comme suit:
-`$ mongod`  
-`$ install npm`
-`$ node index.js`
+###### `$ mongod`  
+###### `$ install npm`
+###### `$ node index.js`
 **NB**: Mongod se lance sur un terminal et les deux autres sur un autre terminal.
 On ouvre le navigateur et on tape :
 `<link>` : <https://localhost:8082>
