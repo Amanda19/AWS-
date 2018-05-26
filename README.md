@@ -43,6 +43,8 @@ Lorsque l'utilisateur clique sur logout, il sera redirigé vers /home la page d'
 Il a été utilisé pour la création des différentes pages web.
 #### CSS
 Il a été utilisé pour  mettre en forme les pages web
+#### Bootstrap
+Nous avons utilisé ce framework pour donner un bon designe à l'application
 #### JacaScript
 Il a été utilisé pour développé l'application du coté client. Nous avons utilisé une Template pour la création du calendrier et certaines fonctionnalités tels que: création des cases, création des boutons..etc. Nous l'avons aussi utilisé pour la création de la page d'accueil et la gestion des événements.
 #### Node.js
