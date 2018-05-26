@@ -1,8 +1,8 @@
-###Présentation du projet Calendrier
+# Présentation du projet Calendrier 
 
 
 
-# ReadMe.md
+### ReadMe.md
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
@@ -13,7 +13,7 @@
 
 [TOC]
 
-# # Présentation global de l'application
+## Présentation global de l'application
 Ce projet consiste en le développement d'une application web, "un calendrier". Les technologies utilisées pour le réaliser sont EJS, CSS, JavaScript, node.js, et une base de données no sql avec  MongoDb.
 ##  Fonctionnalités de l'application
 En général, le principe est de réaliser un calendrier d'événements, qui permets de créer, modifier et supprimer un événement donné sans pour autant qu'il y ait de chauvauchement. Les principales fonctionnalités sont décrites brièvement  dans ce qui suite:
@@ -31,14 +31,14 @@ Un utilisateur connecté clique sur n'importe quelle case vide pour ajouter un �
 L'utilisateur ayant créer l'événement a le droit de supprimer  son/ses événement(s), s'il le désire. Un PopUp de confirmation sera alors affiché.
 #### Modification d'un événement
 L'utilisateur  ayant créer un événement donné, peut modifier le titre et la date de début et de fin de l'événement
-##  Structure de l'application
+## Structure de l'application
 #### Page d'accueil
 L'application a comme page d'accueil dont le root /home,  nous donne la possibilité de s'inscrire ou de se connecter à l'application. Une fois connecté, l'utilisateur aura accées au calendrier d'énénements. sinon il nous redirige vers la même page d'accueil.
 #### Calendrier
 Le root ici c'est le /dashboard on y accède après la connexion. C'est le Calendier décrit au-dessus.
 #### Sortir de l'application
 Lorsque l'utilisateur clique sur logout, il sera redirigé vers /home la page d'accueil. 
-##  Technologies Utilisées
+## Technologies Utilisées
 #### EJS
 Il a été utilisé pour la création des différentes pages web.
 #### CSS
@@ -59,7 +59,7 @@ On retrouve ainsi la** gestion **des **événements** qui  est un bout de **code
 **/data** nous donne les différentes** informations****** sur le *contenu de la BD*
 #### côté Client
 Concernant le Calendrier dans le **dashboard.ejs** nous avons utilisé une **Template** qui génère et qui gère le **calendrier**.
-####Pages web
+#### Pages web
 Nous avons développer les pages web comme ceci:
 ##### dashboard.ejs
 V'est le tableau de bord, la page web principale  du projet, elle contient un lien vers la template calendrier.js , un autre lien vers le css ainsi que les balises pour la structuration de la page web.
