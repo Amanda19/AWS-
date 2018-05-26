@@ -16,7 +16,7 @@
 ## Présentation global de l'application
 Ce projet consiste en le développement d'une application web, "un calendrier". Les technologies utilisées pour le réaliser sont EJS, CSS, JavaScript, node.js, et une base de données no sql avec  MongoDb.
 ##  Fonctionnalités de l'application
-En général, le principe est de réaliser un calendrier d'événements, qui permets de créer, modifier et supprimer un événement donné sans pour autant qu'il y ait de chauvauchement. Les principales fonctionnalités sont décrites brièvement  dans ce qui suite:
+
 ####  Login 
 Permet à l'utilisateur de se connecter à l'application pour y accéder.
 #### Logout
@@ -67,9 +67,9 @@ V'est le tableau de bord, la page web principale  du projet, elle contient un li
 Elle dispose des balises qui  structure  la  page web que l'utilsateur aura tout au début qui lui premt de se connecter, de s'inscrire et à laquelle il sera redirigée une fois déconnecté. ainsi qu'un lien vers le CSS
 
 ##### footer et Header.ejs
-Elle contiennent les balises qui structurent l'en tête et les pieds de la page web dashboard.
+Elle contiennent les balises qui structurent l'en-tête et les pieds de la page web dashboard.
+
 ##### les  pages de styles CSS
-Ils permettent de donner une meilleure présentation, un meilleur style au différentes pages ejs présentées ci-dessus.
 
 ##  Lancement de l'application
 Le lancement de l'application nécessite certains prérequis :
@@ -84,10 +84,7 @@ L'application étant en local elle se  lance comme suit:
 On ouvre le navigateur et on tape :
 ###### `<link>` : <https://localhost:8082>
 
-##  Apperçue de l'application
-Image:
 
-![]()
 
 
 
